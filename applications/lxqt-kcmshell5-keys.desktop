@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=KWin Keyboard Shortcuts
+Comment=Configure keyboard shortcuts in KWin
+Name[it]=Scorciatoie KWin
+Comment[it]=Configura le scorciatoie di KWin
+TryExec=kwin_x11
+Exec=kcmshell5 --caption "LXQt KWin Settings" --desktopfile=/usr/share/kservices5/kwindecoration.desktop keys
+Icon=preferences-desktop-keyboard
+Terminal=false
+Type=Application
+Categories=Qt;Settings;Desktopsettings;System;
+StartupNotify=true
+OnlyShowIn=LXQt;
